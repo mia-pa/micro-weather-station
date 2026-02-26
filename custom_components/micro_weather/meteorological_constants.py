@@ -848,3 +848,7 @@ class TrendConstants:
 
 # Module-level aliases for tests
 HUMIDITY_HIGH = TemperatureThresholds.HUMIDITY_HIGH
+
+# Rain detection defaults (added to reduce false positives)
+RAIN_RATE_THRESHOLD_DEFAULT = 0.2  # mm/h
+RAIN_RATE_SUSTAIN_SECONDS_DEFAULT = 60  # seconds
